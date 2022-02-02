@@ -32,9 +32,10 @@ Depths <- GEBCO[EEZ] %>%
 
 Depths[[1]][Depths[[1]] > units::set_units(0, "m") | Depths[[1]] < units::set_units(-600, "m")] <- NA
 
-Depths[[1]][is.finite(Depths[[1]])] <- units::set_units(-600, "m")
-
-
+#Depths[[1]][is.finite(Depths[[1]])] <- units::set_units(-600, "m")
+Depths[[1]][Depths[[1]] > units::set_units(-100, "m")] <- -100
+Depths[[1]][Depths[[1]] < units::set_units(-100, "m")] <- -600
+                        
 Bottom <- st_as_stars(Depths) %>%
   st_as_sf(merge = TRUE) %>%
   st_make_valid() %>%
@@ -61,29 +62,24 @@ Distance <- st_as_stars(Distance) %>%
   st_make_valid()
 
 ggplot() +
+  geom_sf(data = filter(Bottom, Depth == 100), fill = "red") +
   geom_sf(data = Distance) + 
-#  geom_sf(data = Depths, aes(fill = Depth), alpha = 0.2) +
   theme_minimal() 
 
-#### Expand inshore and cut offshore ####
-
-# sf_use_s2(F)
-# 
-# inshore <- st_union(filter(Distance, Distance == 20), filter(Depths, Depth == 60)) %>% 
-#   st_make_valid()
-# 
-# shrunk <- bind_rows(inshore, EEZ) %>%
-#   st_make_valid() %>% 
-#   st_difference()
-# 
-# ggplot() +
-#   geom_sf(data = Region_mask, fill = "red") +
-#   geom_sf(data = shrunk, aes(fill = Depth), alpha = 0.5)
+Inshore <- filter(Bottom, Depth == 100) %>% 
+  st_cast("POLYGON") %>% 
+  st_join(st_transform(Distance, st_crs(Bottom))) %>% 
+  drop_na() %>% 
+  st_as_sf() %>% 
+  st_union() %>% 
+  st_sf(Shore = "Inshore") %>% 
+  rename(geometry = ".") %>% 
+  st_union(st_transform(Distance, st_crs(Bottom)))
 
 #### Cut to region mask ####
 
-contained <- st_cast(Distance, "POLYGON") %>%
-  st_join(st_transform(Region_mask, st_crs(Distance)), st_within) %>% 
+contained <- st_cast(Inshore, "POLYGON") %>%
+  st_join(st_transform(Region_mask, st_crs(Inshore)), st_within) %>% 
   drop_na() %>% 
   st_as_sf() %>% 
   st_union() %>% 
@@ -91,9 +87,7 @@ contained <- st_cast(Distance, "POLYGON") %>%
   st_sf(Shore = "Inshore") %>% 
   rename(geometry = ".")
 
-  mutate(Shore = "Inshore")
-
-exactextractr::exact_extract(raster("../Shared data/GEBCO_2020.nc"), contained, "mean")
+#exactextractr::exact_extract(raster("../Shared data/GEBCO_2020.nc"), contained, "mean")
 
 
 ggplot() +
@@ -118,9 +112,6 @@ Domains <- bind_rows(Offshore, contained) %>%
             area = as.numeric(st_area(.)),
             Elevation = exactextractr::exact_extract(raster("../Shared data/GEBCO_2020.nc"), ., "mean")) %>% 
   st_transform(crs = crs) 
-  group_by(Shore) %>% 
-  summarise(Elevation = weighted.mean(Elevation, area),
-            area = sum(area))
 
 saveRDS(Domains, "./Objects/Domains.rds")
 
