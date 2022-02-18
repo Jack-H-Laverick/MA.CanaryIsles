@@ -29,6 +29,8 @@ StrathE2E contains 3 ocean volumes. There's an inshore-offshore divide, and a sh
 
 For the Canary current we have inspected the distribution of vertical diffusivity values in the region from NEMO-MEDUSA model output. 60 m looks like a sensible depth to separate the shallow and deep layers.
 
+** Following this paper http://dx.doi.org/10.1016/j.jmarsys.2009.10.007 we updated the boundary to 100m to capture the deeper chlorophyll for the region. **
+
 As well as the vertical boundary depth, We need to choose the horizontal extent for the inshore and offshore zones of the model domain. When doing this we need to consider the following: 
 
 * The offshore zone should extend to the continental slope. 

@@ -18,6 +18,9 @@ ggsave_map <- function(filename, plot) {
 }                             # Set a new default for saving maps in the correct size
 pre <- list(scale = 1, width = 12, height = 10, units = "cm", dpi = 500) # The same settings if you need to pass them to a function in MiMeMo.tools
 
+SDepth <- 100                  # Shallow deep boundary
+DDepth <- 600                 # Maximum depth
+
 #### bathymetry.5 MODEL DOMAIN ####
 
 shape <- function(matrix) {
