@@ -100,7 +100,8 @@ ggsave("./Figures/bathymetry/EEZ.png", width = 18, height = 10, units = "cm", dp
 
 #### Format to domains object ####
 
-Offshore <- st_difference(EEZ, st_transform(contained, st_crs(EEZ))) %>% 
+Offshore <- st_difference(sfheaders::sf_remove_holes(EEZ), 
+                          sfheaders::sf_remove_holes(st_transform(contained, st_crs(EEZ)))) %>% 
   transmute(Shore = "Offshore") %>% 
   st_cast("POLYGON") %>% 
   mutate(area = as.numeric(st_area(.))) %>% 
