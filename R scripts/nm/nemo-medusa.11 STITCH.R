@@ -45,6 +45,23 @@ future_map2(North, South, ~{                                                 # F
     mutate(Chunk = "North",                                                  # Label
            y = y + max(south$y) - min(y) + 1) %>%                            # Update the grid position for quick plotting
     bind_rows(mutate(south, Chunk = "South")) %>%                            # Add to labelled southern data
-    select(-Chunk) %>%                                                    # Drop data label (comment this if you want to check on a test)
-    saveRDS(str_remove(.x, " NORTH"))                                     # Save out spatial file in the folder above WD
+    select(-Chunk) %>%                                                       # Drop data label (comment this if you want to check on a test)
+    saveRDS(str_remove(.x, " NORTH"))                                        # Save out spatial file in the folder above WD
+}, .progress = TRUE) 
+
+#### Combine North and South grids for Overhang ####
+
+North <- list.files("./Objects/overhang NORTH/", full.names = T)
+South <- list.files("./Objects/overhang SOUTH/", full.names = T)
+
+future_map2(North, South, ~{                                                 # For each paired set of results
+  
+  south <- readRDS(.y)
+  
+  both <- anti_join(readRDS(.x), south, by = c("latitude", "longitude")) %>% # Find the non-duplictaed entries from the Norht
+    mutate(Chunk = "North",                                                  # Label
+           y = y + max(south$y) - min(y) + 1) %>%                            # Update the grid position for quick plotting
+    bind_rows(mutate(south, Chunk = "South")) %>%                            # Add to labelled southern data
+    select(-Chunk) %>%                                                       # Drop data label (comment this if you want to check on a test)
+    saveRDS(str_remove(.x, " NORTH"))                                        # Save out spatial file in the folder above WD
 }, .progress = TRUE) 
