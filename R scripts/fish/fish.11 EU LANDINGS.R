@@ -49,7 +49,7 @@ EU_gears <- group_by(EU_landings, Gear_code, year) %>%
   mutate(Gear_name = factor(Gear_name, Gear_name))
   
 ggplot(EU_gears) +
-  geom_col(aes(x = totwghtlandg, y = Gear_name), fdata:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAAWElEQVR42mNgGPTAxsZmJsVqQApgmGw1yApwKcQiT7phRBuCzzCSDSHGMKINIeDNmWQlA2IigKJwIssQkHdINgxfmBBtGDEBS3KCxBc7pMQgMYE5c/AXPwAwSX4lV3pTWwAAAABJRU5ErkJggg==ill = "cadetblue", colour = "white") +
+  geom_col(aes(x = totwghtlandg, y = Gear_name), fill = "cadetblue", colour = "white") +
   theme_minimal()+
   labs(y = NULL, x = "Total landed weight (tonnes)",
        subtitle = "Fishing gears active in the model domain according to STECF")
