@@ -1,0 +1,4 @@
+Value,Description - these can all be edited DURING a run and have immediate effect
+0,Axis_minimum_for_realtime_plot
+0.3,Axis_maximum_for_realtime_plot
+0.05,CV_ie_SD/mean_for_fishing_fleet_parameters

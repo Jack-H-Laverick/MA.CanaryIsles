@@ -1,0 +1,13 @@
+Gear_name,Gear_code,Propgutted_PF,Propgutted_DF,Propgutted_MF,Propgutted_FDB,Propguttede_CSB,Propgutted_CZ,Propgutted_BD,Propgutted_SL,Propgutted_CT,Propgutted_KP
+Pelagic_Trawl+Seine,PTS,0,0,0,0,0,0,0,0,0,0
+Otter30-70mm+TR3(sandeel+sprat),SST,0,0,0,0,0,0,0,0,0,0
+Longline_mackerel,LLm,0,0,0,0,0,0,0,0,0,0
+Beam_Trawl_BT1+BT2,BTf,0,0.5,0,0,0,0,0,0,0,0
+Demersal_Seine,DS,0,0.5,0,0,0,0,0,0,0,0
+Demersal_Otter_Trawl_TR1,OT,0,0.5,0,0,0,0,0,0,0,0
+Gill_Nets+Longline_demersal,LLd,0,0,0,0,0,0,0,0,0,0
+Beam_Trawl_shrimp,BTs,0,0,0,0,0,0,0,0,0,0
+Nephrops_Trawl_TR3,NT,0,0,0,0,0.8,0,0,0,0,0
+Creels,CR,0,0,0,0,0,0,0,0,0,0
+Mollusc_Dredge,MD,0,0,0,0,0,0,0,0,0,0
+KelpHarvester,KH,0,0,0,0,0,0,0,0,0,0

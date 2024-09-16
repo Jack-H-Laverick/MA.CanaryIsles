@@ -1,0 +1,33 @@
+StrathE2E Gear,Sourced Gear,Gear Type,Gear Code,Source
+Trawls,Undefined trawl,Mobile,50,IMR
+Trawls,Double trawl,Mobile,58,IMR
+Trawls,Triple trawl,Mobile,59,IMR
+Trawls,Beam trawl,Mobile,56,IMR
+Trawls,Bottom trawl,Mobile,51,IMR
+Trawls,Bottom otter trawl,Mobile,OTB,STECF
+Trawls,Bottom pair trawl,Mobile,PTB,STECF
+Trawls,Mid-water pair trawl,Mobile,PTM,STECF
+Trawls,Otter twin trawls,Mobile,OTT,STECF
+Pelagic,Mid-water otter trawl,Mobile,OTM,STECF
+Pelagic,Pelagic trawl,Mobile,53,IMR
+Pelagic,Purse seine,Mobile,11,IMR
+Pelagic,Pelagic trawl (pair),Mobile,54,IMR
+Longlines_and_Jigging,Undefined hook gear,Static,30,IMR
+Longlines_and_Jigging,Other hook and line,Static,32,IMR
+Longlines_and_Jigging,Floating hooks,Static,31,IMR
+Longlines_and_Jigging,Jigging,Static,33,IMR
+Gillnets,Undefined net,Static,20,IMR
+Gillnets,Gillnet (static),Static,22,IMR
+Gillnets,Gillnet (drifting),Static,21,IMR
+Seines,Undefined seine net ,Mobile,10,IMR
+Seines,Danish seine,Mobile,61,IMR
+Pots,Pot,Static,42,IMR
+Pots,Pots,Static,FPO,STECF
+Dropped,Other,NA,80,IMR
+Dropped,Unknown,NA,NK,IMR
+Harpoons,Harpoon and similar unspecified types,Mobile,70,STECF
+Rifles,Rifle,Mobile,73,STECF
+Kelp harvesting,Kelp harvesting,Mobile,NA,NA
+Dredging,Dredge,Mobile,DRB,IMR
+Shrimp trawl,Shrimp trawl,Mobile,55,STECF
+Recreational,Recreational,Mobile,NA,NA

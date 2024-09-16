@@ -1,0 +1,11 @@
+Group,Harvest_ratio_multiplier
+Planktivorous_fish,0.85
+Demersal_fish,0.5
+Migratory_fish,1
+Benthos_filt-dep,0.1
+Benthos_carn-scav,0.3
+Zooplankton_carn,50
+Birds,1
+Seals,1
+Cetaceans,1
+Kelp,1

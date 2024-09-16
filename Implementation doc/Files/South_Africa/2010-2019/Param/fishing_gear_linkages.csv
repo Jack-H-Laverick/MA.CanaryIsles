@@ -1,0 +1,13 @@
+Gear_id,Gear_name,Gear_to_which_linked,Linkage_coefficient,Comments
+1,Pelagic_Trawl+Seine,NA,NA,Independent_of_other_gears
+2,Sandeel+sprat_trawl(Otter30-70mm+TR3),1,1.5,Based_on_ICES_ecosystem_review
+3,Longline_mackerel,1,1,Guess
+4,Beam_Trawl_BT1+BT2,NA,NA,Independent_of_other_gears
+5,Demersal_Seine,6,1,Based_on_ICES_ecosystem_review
+6,Demersal_Otter_Trawl_TR1,NA,NA,Independent_of_other_gears
+7,Gill_Nets+Longline_demersal,6,1,Guess
+8,Beam_Trawl_shrimp,NA,NA,Independent_of_other_gears
+9,Nephrops_Trawl_TR2,8,0.645,Based_on_ICES_ecosystem_review
+10,Creels,8,0.606,Based_on_ICES_ecosystem_review
+11,Mollusc_Dredge,NA,NA,Independent_of_other_gears
+12,Whaler,NA,NA,Independent_of_other_gears

@@ -1,0 +1,13 @@
+Gear_name,Gear_code,Activity_(s/m2/d),Plough_rate_(m2/s)
+Pelagic_Trawl+Seine,PTS,7.81E-07,0
+Otter30-70mm+TR3(sandeel+sprat),SST,4.63E-07,8.8
+Longline_mackerel,LLm,4.77E-06,0
+Beam_Trawl_BT1+BT2,BTf,9.76E-06,54.1
+Demersal_Seine,DS,1.74E-08,22.4
+Demersal_Otter_Trawl_TR1,OT,2.63E-05,17.1
+Gill_Nets+Longline_demersal,LLd,1.45E-05,0
+Beam_Trawl_shrimp,BTs,1.31E-08,13.5
+Nephrops_Trawl_TR3,NT,3.24E-06,78.9
+Creels,CR,1.40E-05,0
+Mollusc_Dredge,MD,2.55E-06,22.4
+KelpHarvester,KH,1.00E-08,0

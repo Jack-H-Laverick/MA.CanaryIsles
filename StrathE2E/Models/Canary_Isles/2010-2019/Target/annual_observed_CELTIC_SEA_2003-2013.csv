@@ -1,0 +1,85 @@
+Annual_measure,SD_of_measure,Use1_0,Name,Units,Description,Region,Time_period,Source
+NA,NA,0,Obs_TAPP,mMN/m2/y,Annual_total_primary_production,Celtic_Sea,2003-2013,Insufficient_data
+858.9,208.4,1,Obs_NP,mMN/m2/y,Annual_new_production_from_depth_integrated_nitrate_plus_summer_river_and_atmos_inputs,Celtic_Sea,2000_2003,Heath_and_Beare_2008
+600,100,1,Obs_KelpP,gC/m2/y,Annual_WITHIN_FOREST_NET_production_of_macrophytes,General_UK,NA,Burrows_et_al_2018
+339.6,25.157,1,Obs_OmnizooP,mMN/m2/y,Annual_ominiv_zooplankton_gross_production,Celtic_Sea,1970_1999_included _as_substitute,Heath_2005/Mackinson_and_Daskalov_2007
+44.35,2.5157,1,Obs_CarnzooP,mMN/m2/y,Annual_carnivorous_zooplankton_gross_production,Celtic_Sea,1970_1999_included _as_substitute,Heath_2005/Mackinson_and_Daskalov_2007
+NA,NA,0,Obs_PFishP,mMN/m2/y,Annual_planktivorous_fish_gross_production,Celtic_Sea,1970_1999_included _as_substitute,Heath_2005
+NA,NA,0,Obs_DFishP,mMN/m2/y,Annual_demersal_fish_gross_production,Celtic_Sea,1970_1999_included _as_substitute,Heath_2005
+NA,NA,0,Obs_BensuspP,mMN/m2/y,Annual_susp/dep_benthos_gross_production,Celtic_Sea,2003-2013,Insufficient_data
+NA,NA,0,Obs_BencarnP,mMN/m2/y,Annual_carn/scan_benthos_gross_production,Celtic_Sea,2003-2013,Insufficient_data
+NA,NA,0,Obs_birdP,mMN/m2/y,Annual_net_production_of_birds,Celtic_Sea,1970_1999_included _as_substitute,Mackinson_and_Daskalov_2007
+NA,NA,0,Obs_sealP,mMN/m2/y,Annual_net_production_of_pinnipeds,Celtic_Sea,1970_1999_included _as_substitute,Mackinson_and_Daskalov_2007
+NA,NA,0,Obs_cetaP,mMN/m2/y,Annual_net_production_of_cetaceans,Celtic_Sea,1970_1999_included _as_substitute,Mackinson_and_Daskalov_2007
+NA,NA,0,Obs_maxbenthslar,mMN/m3,Annual_monthly_max_conc_of_benthos_susp/dep_larvae,Celtic_Sea,2003-2013,Insufficient_data
+NA,NA,0,Obs_maxbenthclar,mMN/m3,Annual_monthly_max_conc_of_benthos_carn/scav_larvae,Celtic_Sea,2003-2013,Insufficient_data
+NA,NA,0,Obs_Conpfishfish,mMN/m2/y,Annual_consumption_of_planktivorous_fish_by_fish,Celtic_Sea,2003-2013,Insufficient_data
+NA,NA,0,Obs_Condfishfish,mMN/m2/y,Annual_consumption_of_demersal_fish_by_fish,Celtic_Sea,2003-2013,Insufficient_data
+NA,NA,0,Obs_Conzoofish,mMN/m2/y,Annual_consumption_of_omniv_zooplankton_by_fish_and_fish_larvae,Celtic_Sea,2003-2013,Insufficient_data
+NA,NA,0,Obs_Conzoocarnz,mMN/m2/y,Annual_consumption_of_omniv_zooplankton_by_carn_zooplankton,Celtic_Sea,2003-2013,Insufficient_data
+NA,NA,0,Obs_Conbenfish,mMN/m2/y,Annual_consumption_of_benthos_by_fish,Celtic_Sea,2003-2013,Insufficient_data
+NA,NA,0,Obs_Contotal_bird,mMN/m2/y,Annual_food_consumption_by_birds,Celtic_Sea,2003-2013,Insufficient_data
+NA,NA,0,Obs_Proppfishbird,dimensionless,Proportion_planktivorous_fish_in_diet_of_birds,Celtic_Sea,2003-2013,Insufficient_data
+NA,NA,0,Obs_Propdfishbird,dimensionless,Proportion_demersal_fish_in_diet_of_birds,Celtic_Sea,2003-2013,Insufficient_data
+NA,NA,0,Obs_Propmfishbird,dimensionless,Proportion_migratory_fish_in_diet_of_birds,Celtic_Sea,2003-2013,Insufficient_data
+NA,NA,0,Obs_Propdiscbird,dimensionless,Proportion_discards_in_diet_of_birds,Celtic_Sea,2003-2013,Insufficient_data
+NA,NA,0,Obs_Contotal_seal,mMN/m2/y,Annual_food_consumption_by_pinnipeds,Celtic_Sea,2003-2013,Insufficient_data
+NA,NA,0,Obs_Proppfishseal,dimensionless,Proportion_planktivorous_fish_in_diet_of_pinnipeds,Celtic_Sea,2003-2013,Insufficient_data
+NA,NA,0,Obs_Propdfishseal,dimensionless,Proportion_demersal_fish_in_diet_of_pinnipeds,Celtic_Sea,2003-2013,Insufficient_data
+NA,NA,0,Obs_Propmfishseal,dimensionless,Proportion_migratory_fish_in_diet_of_pinnipeds,Celtic_Sea,2003-2013,Insufficient_data
+NA,NA,0,Obs_Contotal_ceta,mMN/m2/y,Annual_food_consumption_by_cetaceans,Celtic_Sea,2003-2013,Insufficient_data
+NA,NA,0,Obs_Proppfishceta,dimensionless,Proportion_planktivorous_fish_in_diet_of_cetaceans,Celtic_Sea,2003-2013,Insufficient_data
+NA,NA,0,Obs_Propdfishceta,dimensionless,Proportion_demersal_fish_in_diet_of_cetaceans,Celtic_Sea,2003-2013,Insufficient_data
+NA,NA,0,Obs_Propmfishceta,dimensionless,Proportion_migratory_fish_in_diet_of_cetaceans,Celtic_Sea,2003-2013,Insufficient_data
+0.478160641,0.388893923,1,Obs_Pland_livewt,mMN/m2/y,Annual_planktivorous_fish_landings_(live_weight),Celtic_Sea,2003-2013,Analysis_of_EuroSTAT_ICES_landings_data/Lassen_et_al_2012
+0.488677516,0.065796603,1,Obs_Dland_livewt,mMN/m2/y,Annual_demersal_fish_landings_(live_weight),Celtic_Sea,2003-2013,Analysis_of_EuroSTAT_ICES_landings_data/Lassen_et_al_2012
+1.177064362,0.286647794,1,Obs_Mland_livewt,mMN/m2/y,Annual_migratory_fish_landings_(live_weight),Celtic_Sea,2003-2013,Analysis_of_EuroSTAT_ICES_landings_data/Lassen_et_al_2012
+0.018303681,0.004068244,1,Obs_Bsland_livewt,mMN/m2/y,Annual_susp/dep_benthos_landings_(live_weight),Celtic_Sea,2003-2013,Analysis_of_EuroSTAT_ICES_landings_data/Lassen_et_al_2012
+0.053136837,0.006598579,1,Obs_Bcland_livewt,mMN/m2/y,Annual_carn/scav_benthos_landings_(live_weight),Celtic_Sea,2003-2013,Analysis_of_EuroSTAT_ICES_landings_data/Lassen_et_al_2012
+0.040794309,0.012111637,1,Obs_Zcland_livewt,mMN/m2/y,Annual_carn_zooplankton_landings_(live_weight),Celtic_Sea,2003-2013,Analysis_of_EuroSTAT_ICES_landings_data/Lassen_et_al_2012
+0.010006728,0.012376514,1,Obs_Kland_livewt,mMN/m2/y,Annual_macrophyte_landings_(live_weight),Celtic_Sea,2003-2013,Analysis_of_EuroSTAT_ICES_landings_data/Lassen_et_al_2012
+2,0.5,1,Obs_kelp_pb,/y,Annual_CARBON_gross_PB_ratio_of_macrophytes,General_value,NA,Brady_Campbell_et_al_1984
+10,5,1,Obs_benslar_pb,/y,Annual_gross_PB_ratio_larvae_of_susp/dep_benthos,General_value,NA,Mackinson_and_Daskalov_2007
+10,5,1,Obs_benclar_pb,/y,Annual_gross_PB_ratio_larvae_of_carn/scav_benthos,General_value,NA,Mackinson_and_Daskalov_2007
+10,3,1,Obs_bens_pb,/y,Annual_gross_PB_ratio_susp/dep_feeding_benthos,General_value,NA,Mackinson_and_Daskalov_2007
+1.2,1,1,Obs_benc_pb,/y,Annual_gross_PB_ratio_carn/scav_feeding_benthos,General_value,NA,Mackinson_and_Daskalov_2007
+20,10,1,Obs_omni_pb,/y,Annual_gross_PB_ratio_omniv_zooplankton,General_value,NA,Mackinson_and_Daskalov_2007
+5,1.315,1,Obs_carn_pb,/y,Annual_gross_PB_ratio_carniv_zooplankton,General_value,NA,Mackinson_and_Daskalov_2007
+4,2,1,Obs_fishplar_pb,/y,Annual_gross_PB_ratio_larvae_of_planktivorous_fish,General_value,NA,Mackinson_and_Daskalov_2007
+4,2,1,Obs_fishdlar_pb,/y,Annual_gross_PB_ratio_larvae_of_demersal_fish,General_value,NA,Mackinson_and_Daskalov_2007
+1.72,0.86,1,Obs_fishp_pb,/y,Annual_gross_PB_ratio_planktivorous_fish,General_value,NA,Mackinson_and_Daskalov_2007
+0.88,0.44,1,Obs_fishd_pb,/y,Annual_gross_PB_ratio_demersal_fish,General_value,NA,Mackinson_and_Daskalov_2007
+1.3,0.6,1,Obs_fishm_pb,/y,Annual_gross_PB_ratio_migratory_fish,General_value,NA,Mackinson_and_Daskalov_2007
+0.28,0.14,1,Obs_bird_pb,/y,Annual_net_PB_ratio_birds,General_value,NA,Mackinson_and_Daskalov_2007
+0.09,0.045,1,Obs_seal_pb,/y,Annual_net_PB_ratio_pinnipeds,General_value,NA,Mackinson_and_Daskalov_2007
+0.02,0.01,1,Obs_ceta_pb,/y,Annual_net_PB_ratio_cetaceans,General_value,NA,Mackinson_and_Daskalov_2007
+0.3,0.1,1,Obs_exud_C_kelp,dimensionless,Annual_average_proportion_of_macrophyte_C_uptake_which_is_exuded,General_value,NA,Abdullah_and_Fredriksen_2004
+0.12,0.2,1,Obs_kelp_NC,dimensionless,Annual_average_molar_NC_ratio_of_macrophytes,General_value,NA,Sjotun_et_al_1996/Broch_and_Slagstad_2012
+NA,NA,0,Obs_Denitrif,mMN/m2/y,Annual_denitrification,Celtic_Sea,2003-2013,Insufficient_data
+0.51,0.1,1,Obs_Dfdiscardp,dimensionless,Proportion_of_demersal_fish_catch_discarded,Celtic_Sea,2003-2013,Analysis of STECF data
+19.24,9,1,Obs_s_x_ammonia,mMN/m3,Annual_average_ammonia_conc_in_porewater_of_sand_gs_0.25mm,NW_North_Sea,2007_2008,Serpetti_2012/Serpetti_et_al_2016
+63.45,22,1,Obs_d_x_ammonia,mMN/m3,Annual_average_ammonia_conc_in_porewater_of_mud_gs_0.12mm,NW_North_Sea,2007_2008,Serpetti_2012/Serpetti_et_al_2016
+4.15,2,1,Obs_s_x_nitrate,mMN/m3,Annual_average_nitrate_conc_in_porewater_of_sand_gs_0.25mm,NW_North_Sea,2007_2008,Serpetti_2012/Serpetti_et_al_2016
+2.34,1,1,Obs_d_x_nitrate,mMN/m3,Annual_average_nitrate_conc_in_porewater_of_mud_gs_0.12mm,NW_North_Sea,2007_2008,Serpetti_2012/Serpetti_et_al_2016
+0.0353,0.02441,1,Obs_s_x_TON,%N(gN/g_dry_sed),Annual_average_organic_N_content_of_sand_gs_0.25mm_(0.19-0.43mm),NW_North_Sea,1996_2015,Serpetti_2012/Serpetti_et_al_2016
+0.0908,0.0343,1,Obs_d_x_TON,%N(gN/g_dry_sed),Annual_average_organic_N_content_of_mud_gs_0.12mm_(0.03-0.07mm),NW_North_Sea,1996_2015,Serpetti_2012/Serpetti_et_al_2016
+NA,NA,0,Obs_NDJF_s_nitrate,mMN/m3,Average_winter_(Nov-Feb)_nitrate_conc_shallow_layer,Celtic_Sea,2003-2013,Insufficient_data
+NA,NA,0,Obs_MJJA_s_nitrate,mMN/m3,Average_summer_(May-Aug)_nitrate_conc_shallow_layer,Celtic_Sea,2003-2013,Insufficient_data
+NA,NA,0,Obs_NDJF_d_nitrate,mMN/m3,Average_winter_(Nov-Feb)_nitrate_conc_deep_layer,Celtic_Sea,2003-2013,Insufficient_data
+NA,NA,0,Obs_MJJA_d_nitrate,mMN/m3,Average_summer_(May-Aug)_nitrate_conc_deep_layer,Celtic_Sea,2003-2013,Insufficient_data
+NA,NA,0,Obs_NDJF_s_ammonia,mMN/m3,Average_winter_(Nov-Feb)_ammonia_conc_shallow_layer,Celtic_Sea,2003-2013,Insufficient_data
+NA,NA,0,Obs_MJJA_s_ammonia,mMN/m3,Average_summer_(May-Aug)_ammonia_conc_shallow_layer,Celtic_Sea,2003-2013,Insufficient_data
+NA,NA,0,Obs_NDJF_d_ammonia,mMN/m3,Average_winter_(Nov-Feb)_ammonia_conc_deep_layer,Celtic_Sea,2003-2013,Insufficient_data
+NA,NA,0,Obs_MJJA_d_ammonia,mMN/m3,Average_summer_(May-Aug)_ammonia_conc_deep_layer,Celtic_Sea,2003-2013,Insufficient_data
+NA,NA,0,Obs_carn_io_ratio,dimensionless,Inshore_offshore_ratio_of_annual_mean_carnzoo_depth_av_conc,Celtic_Sea,2003-2013,Insufficient_data
+NA,NA,0,Obs_omni_io_ratio,dimensionless,Inshore_offshore_ratio_of_annual_mean_omnivzoo_depth_av_conc,Celtic_Sea,2003-2013,Insufficient_data
+NA,NA,0,Obs_phyt_io_ratio,dimensionless,Inshore_offshore_ratio_of_annual_mean_phyt_surface_layer_conc,Celtic_Sea,2003-2013,Insufficient_data
+NA,NA,0,Obs_nit_io_ratio,dimensionless,Inshore_offshore_ratio_of_annual_mean_nitrate_surface_layer_conc,Celtic_Sea,2003-2013,Insufficient_data
+NA,NA,0,Obs_amm_io_ratio,dimensionless,Inshore_offshore_ratio_of_annual_mean_ammonia_surface_layer_conc,Celtic_Sea,2003-2013,Insufficient_data
+NA,NA,0,Obs_pfish_io_ratio,dimensionless,Inshore_offshore_ratio_of_annual_mean_planktivorous_fish_density_per_m2,Celtic_Sea,2003-2013,Insufficient_data
+NA,NA,0,Obs_dfish_io_ratio,dimensionless,Inshore_offshore_ratio_of_annual_mean_demersal_fish_density_per_m2,Celtic_Sea,2003-2013,Insufficient_data
+6.25E-07,3.00E-07,1,Obs_birddisc,mMN/m2/y,Annual_bycatch_of_birds,Celtic_Sea,2003-2013,Synthesis_of_literature_data/Macdonald_et_al_2019
+1.31E-04,5.00E-05,1,Obs_sealdisc,mMN/m2/y,Annual_bycatch_of_pinnipeds,Celtic_Sea,2003-2013,Synthesis_of_literature_data/Macdonald_et_al_2019
+0.00027545,1.00E-04,1,Obs_cetadisc,mMN/m2/y,Annual_bycatch_of_cetaceans,Celtic_Sea,2003-2013,Synthesis_of_literature_data/Macdonald_et_al_2019
+1.50E-01,0.05,1,Obs_kelp_beachcast,dimensionless,Proportion_of_macrophyte_annual_nitrogen_uptake_exported_as_beachcast,General_value,NA,Zemke_White_et_al_2005
+0,0,0,Obs_Ctland_livewt,mMN/m2/y,Obs_cetacean_landings_by_whale_hunters,Celtic_Sea,2003-2013,No_whaling_allowed
